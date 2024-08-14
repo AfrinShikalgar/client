@@ -7,7 +7,7 @@ const Login = (props) => {
     
     let navigate = useNavigate();
 
-    const host = "http://localhost:5000";
+    const host = "https://server-navy-xi.vercel.app";
 
     const handleSubmit = async(e)=> {
         e.preventDefault();

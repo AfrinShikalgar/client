@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
     
-    const host = "http://localhost:5000";
+    const host = "https://server-navy-xi.vercel.app";
 
     let navigate = useNavigate();
     const [user, setUser] = useState({name: "", email: "", date: Date()});
