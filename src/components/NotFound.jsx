@@ -8,7 +8,7 @@ const NotFound = () => {
             <div>
                 <h1>404</h1>
                 <h3>Not Found</h3>
-                <p>Return to <a href="http://localhost:3000">Home</a></p>
+                <p>Return to <a href="https://client-seven-silk-25.vercel.app">Home</a></p>
             </div>
         </div>
     </>
