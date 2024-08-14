@@ -11,6 +11,7 @@ const Login = (props) => {
 
     const handleSubmit = async(e)=> {
         e.preventDefault();
+        console.log(credentials.email, credentials.password)
         const response = await fetch(`${host}/api/auth/login`, {
             method: "POST",
             headers: {
